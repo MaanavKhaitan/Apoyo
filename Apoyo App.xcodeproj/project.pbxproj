@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C848D757E5C239629498754 /* Pods_Apoyo_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B5F9E6BBD9827F7C46A0CC /* Pods_Apoyo_App.framework */; };
+		871A2DFC23CCA4CC00A672C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871A2DFB23CCA4CC00A672C7 /* AppDelegate.swift */; };
+		871A2DFE23CCA4CC00A672C7 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871A2DFD23CCA4CC00A672C7 /* LogInViewController.swift */; };
+		871A2E0123CCA4CC00A672C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 871A2DFF23CCA4CC00A672C7 /* Main.storyboard */; };
+		871A2E0323CCA4CE00A672C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 871A2E0223CCA4CE00A672C7 /* Assets.xcassets */; };
+		871A2E0623CCA4CE00A672C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 871A2E0423CCA4CE00A672C7 /* LaunchScreen.storyboard */; };
+		871A2E0E23CCA4F300A672C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 871A2E0D23CCA4F300A672C7 /* GoogleService-Info.plist */; };
+		871A2E1023CCB0BB00A672C7 /* remindersIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 871A2E0F23CCB0BB00A672C7 /* remindersIcon.png */; };
+		871A2E1223CCB5B900A672C7 /* locationIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 871A2E1123CCB5B900A672C7 /* locationIcon.png */; };
+		871A2E1623CCC8FE00A672C7 /* PatientTodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871A2E1523CCC8FE00A672C7 /* PatientTodayViewController.swift */; };
+		871A2E1823CCC91D00A672C7 /* SafetyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871A2E1723CCC91D00A672C7 /* SafetyViewController.swift */; };
+		871A2E1A23CCC93D00A672C7 /* CaregiverTodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871A2E1923CCC93D00A672C7 /* CaregiverTodayViewController.swift */; };
+		871A2E1C23CCC95000A672C7 /* AddReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871A2E1B23CCC95000A672C7 /* AddReminderViewController.swift */; };
+		8735024B23D1E124004019A1 /* fgghh.png in Resources */ = {isa = PBXBuildFile; fileRef = 8735024A23D1E124004019A1 /* fgghh.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		134CAEF02CA3D306942935E2 /* Pods-Apoyo App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apoyo App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Apoyo App/Pods-Apoyo App.release.xcconfig"; sourceTree = "<group>"; };
+		7967E82AF12955BD06778741 /* Pods-Apoyo App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apoyo App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Apoyo App/Pods-Apoyo App.debug.xcconfig"; sourceTree = "<group>"; };
+		871A2DF823CCA4CC00A672C7 /* Apoyo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apoyo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		871A2DFB23CCA4CC00A672C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		871A2DFD23CCA4CC00A672C7 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		871A2E0023CCA4CC00A672C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		871A2E0223CCA4CE00A672C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		871A2E0523CCA4CE00A672C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		871A2E0723CCA4CE00A672C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		871A2E0D23CCA4F300A672C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		871A2E0F23CCB0BB00A672C7 /* remindersIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = remindersIcon.png; sourceTree = "<group>"; };
+		871A2E1123CCB5B900A672C7 /* locationIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locationIcon.png; sourceTree = "<group>"; };
+		871A2E1523CCC8FE00A672C7 /* PatientTodayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientTodayViewController.swift; sourceTree = "<group>"; };
+		871A2E1723CCC91D00A672C7 /* SafetyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyViewController.swift; sourceTree = "<group>"; };
+		871A2E1923CCC93D00A672C7 /* CaregiverTodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaregiverTodayViewController.swift; sourceTree = "<group>"; };
+		871A2E1B23CCC95000A672C7 /* AddReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderViewController.swift; sourceTree = "<group>"; };
+		8735024A23D1E124004019A1 /* fgghh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fgghh.png; sourceTree = "<group>"; };
+		C5B5F9E6BBD9827F7C46A0CC /* Pods_Apoyo_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apoyo_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		871A2DF523CCA4CC00A672C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C848D757E5C239629498754 /* Pods_Apoyo_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E3CF78ABED044C6FDC91ED9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7967E82AF12955BD06778741 /* Pods-Apoyo App.debug.xcconfig */,
+				134CAEF02CA3D306942935E2 /* Pods-Apoyo App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		871A2DEF23CCA4CC00A672C7 = {
+			isa = PBXGroup;
+			children = (
+				871A2DFA23CCA4CC00A672C7 /* Apoyo App */,
+				871A2DF923CCA4CC00A672C7 /* Products */,
+				0E3CF78ABED044C6FDC91ED9 /* Pods */,
+				E582EDE718D1338A97FB0056 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		871A2DF923CCA4CC00A672C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				871A2DF823CCA4CC00A672C7 /* Apoyo App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		871A2DFA23CCA4CC00A672C7 /* Apoyo App */ = {
+			isa = PBXGroup;
+			children = (
+				871A2DFB23CCA4CC00A672C7 /* AppDelegate.swift */,
+				871A2DFD23CCA4CC00A672C7 /* LogInViewController.swift */,
+				871A2E1523CCC8FE00A672C7 /* PatientTodayViewController.swift */,
+				871A2E1723CCC91D00A672C7 /* SafetyViewController.swift */,
+				871A2DFF23CCA4CC00A672C7 /* Main.storyboard */,
+				871A2E1923CCC93D00A672C7 /* CaregiverTodayViewController.swift */,
+				871A2E1B23CCC95000A672C7 /* AddReminderViewController.swift */,
+				871A2E0223CCA4CE00A672C7 /* Assets.xcassets */,
+				871A2E0423CCA4CE00A672C7 /* LaunchScreen.storyboard */,
+				871A2E0723CCA4CE00A672C7 /* Info.plist */,
+				871A2E0D23CCA4F300A672C7 /* GoogleService-Info.plist */,
+				871A2E0F23CCB0BB00A672C7 /* remindersIcon.png */,
+				871A2E1123CCB5B900A672C7 /* locationIcon.png */,
+				8735024A23D1E124004019A1 /* fgghh.png */,
+			);
+			path = "Apoyo App";
+			sourceTree = "<group>";
+		};
+		E582EDE718D1338A97FB0056 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5B5F9E6BBD9827F7C46A0CC /* Pods_Apoyo_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		871A2DF723CCA4CC00A672C7 /* Apoyo App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 871A2E0A23CCA4CE00A672C7 /* Build configuration list for PBXNativeTarget "Apoyo App" */;
+			buildPhases = (
+				9074E25F72B084723FE91926 /* [CP] Check Pods Manifest.lock */,
+				871A2DF423CCA4CC00A672C7 /* Sources */,
+				871A2DF523CCA4CC00A672C7 /* Frameworks */,
+				871A2DF623CCA4CC00A672C7 /* Resources */,
+				12FB6043795D2F38F8B29519 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Apoyo App";
+			productName = "Apoyo App";
+			productReference = 871A2DF823CCA4CC00A672C7 /* Apoyo App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		871A2DF023CCA4CC00A672C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Maanav Khaitan";
+				TargetAttributes = {
+					871A2DF723CCA4CC00A672C7 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 871A2DF323CCA4CC00A672C7 /* Build configuration list for PBXProject "Apoyo App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 871A2DEF23CCA4CC00A672C7;
+			productRefGroup = 871A2DF923CCA4CC00A672C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				871A2DF723CCA4CC00A672C7 /* Apoyo App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		871A2DF623CCA4CC00A672C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871A2E0623CCA4CE00A672C7 /* LaunchScreen.storyboard in Resources */,
+				871A2E0E23CCA4F300A672C7 /* GoogleService-Info.plist in Resources */,
+				871A2E1023CCB0BB00A672C7 /* remindersIcon.png in Resources */,
+				871A2E1223CCB5B900A672C7 /* locationIcon.png in Resources */,
+				871A2E0323CCA4CE00A672C7 /* Assets.xcassets in Resources */,
+				871A2E0123CCA4CC00A672C7 /* Main.storyboard in Resources */,
+				8735024B23D1E124004019A1 /* fgghh.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12FB6043795D2F38F8B29519 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Apoyo App/Pods-Apoyo App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Apoyo App/Pods-Apoyo App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9074E25F72B084723FE91926 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Apoyo App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		871A2DF423CCA4CC00A672C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871A2DFE23CCA4CC00A672C7 /* LogInViewController.swift in Sources */,
+				871A2E1C23CCC95000A672C7 /* AddReminderViewController.swift in Sources */,
+				871A2E1823CCC91D00A672C7 /* SafetyViewController.swift in Sources */,
+				871A2DFC23CCA4CC00A672C7 /* AppDelegate.swift in Sources */,
+				871A2E1623CCC8FE00A672C7 /* PatientTodayViewController.swift in Sources */,
+				871A2E1A23CCC93D00A672C7 /* CaregiverTodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		871A2DFF23CCA4CC00A672C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				871A2E0023CCA4CC00A672C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		871A2E0423CCA4CE00A672C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				871A2E0523CCA4CE00A672C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		871A2E0823CCA4CE00A672C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = NO;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CLANG_WARN_COMMA = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = NO;
+				CLANG_WARN_DELETE_NON_VIRTUAL_DTOR = NO;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_ENUM_CONVERSION = NO;
+				CLANG_WARN_INFINITE_RECURSION = NO;
+				CLANG_WARN_INT_CONVERSION = NO;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = NO;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_PRAGMA_PACK = NO;
+				CLANG_WARN_PRIVATE_MODULE = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = NO;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = NO;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = NO;
+				CLANG_WARN_UNREACHABLE_CODE = NO;
+				CLANG_WARN_VEXING_PARSE = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		871A2E0923CCA4CE00A672C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = NO;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CLANG_WARN_COMMA = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = NO;
+				CLANG_WARN_DELETE_NON_VIRTUAL_DTOR = NO;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_ENUM_CONVERSION = NO;
+				CLANG_WARN_INFINITE_RECURSION = NO;
+				CLANG_WARN_INT_CONVERSION = NO;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = NO;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_PRAGMA_PACK = NO;
+				CLANG_WARN_PRIVATE_MODULE = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = NO;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = NO;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = NO;
+				CLANG_WARN_UNREACHABLE_CODE = NO;
+				CLANG_WARN_VEXING_PARSE = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		871A2E0B23CCA4CE00A672C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7967E82AF12955BD06778741 /* Pods-Apoyo App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_WARNINGS = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = NO;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CLANG_WARN_COMMA = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = NO;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_ENUM_CONVERSION = NO;
+				CLANG_WARN_INFINITE_RECURSION = NO;
+				CLANG_WARN_INT_CONVERSION = NO;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = NO;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = NO;
+				CLANG_WARN_PRAGMA_PACK = NO;
+				CLANG_WARN_PRIVATE_MODULE = NO;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = NO;
+				CLANG_WARN_UNREACHABLE_CODE = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9WD3G7J48;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				IBSC_WARNINGS = NO;
+				INFOPLIST_FILE = "Apoyo App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "maanavkhaitan.Apoyo-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SUPPRESS_WARNINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		871A2E0C23CCA4CE00A672C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 134CAEF02CA3D306942935E2 /* Pods-Apoyo App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_WARNINGS = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = NO;
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CLANG_WARN_COMMA = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = NO;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_ENUM_CONVERSION = NO;
+				CLANG_WARN_INFINITE_RECURSION = NO;
+				CLANG_WARN_INT_CONVERSION = NO;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = NO;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = NO;
+				CLANG_WARN_PRAGMA_PACK = NO;
+				CLANG_WARN_PRIVATE_MODULE = NO;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = NO;
+				CLANG_WARN_UNREACHABLE_CODE = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9WD3G7J48;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				IBSC_WARNINGS = NO;
+				INFOPLIST_FILE = "Apoyo App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "maanavkhaitan.Apoyo-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SUPPRESS_WARNINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		871A2DF323CCA4CC00A672C7 /* Build configuration list for PBXProject "Apoyo App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				871A2E0823CCA4CE00A672C7 /* Debug */,
+				871A2E0923CCA4CE00A672C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		871A2E0A23CCA4CE00A672C7 /* Build configuration list for PBXNativeTarget "Apoyo App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				871A2E0B23CCA4CE00A672C7 /* Debug */,
+				871A2E0C23CCA4CE00A672C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 871A2DF023CCA4CC00A672C7 /* Project object */;
+}
